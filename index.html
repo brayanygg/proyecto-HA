@@ -1,82 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-32">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camisas Store</title>
+    <title>Hemden Aufbewahren</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>Camisas Store</h1>
-            <ul>
+    <header class="cabecera">
+        <h1>Hemden Aufbewahren</h1>
+        <nav class="barraN">
+            <ul class="lista">
                 <li>
-                    <a href="#">Home</a>
+                    <a class="ancla" href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">Productos</a>
+                    <a class="ancla" href="#">Productos</a>
                 </li>
                 <li>
-                    <a href="#">Sobre nosotros</a>
+                    <a class="ancla" href="#">Sobre nosotros</a>
                 </li>
                 <li>
-                    <a href="#">menu</a>
+                    <a class="ancla" href="#">menu</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <aside>
-            <h2>Productos: </h2>
+    <main class="contenido_p">
+        <aside class="lado">
+            <div class="tituloAs">
+                <a href="#">
+                    <h2>Productos:</h2>
+                </a>
+            </div>
+            <article>
+                <div class="icono_lado">
+                    <a class="ancla_lado" href="#">
+                        <i class="fas fa-shirt" style="color: white;" id="icono_blanca"></i>
+                        <span>Camisas blancas</span>
+                    </a>
+                </div>
+                <div class="icono_lado">
+                    <a class="ancla_lado" href="#">
+                        <i class="fas fa-shirt" style="color: black;" id="icono_negra"></i>
+                        <span>Camisas negras</span>
+                    </a>
+                </div>
+                <div class="icono_lado">
+                    <a class="ancla_lado" href="#">
+                        <i class="fas fa-shirt" style="color: yellow;" id="icono_amarilla"></i>
+                        <span>Camisas amarillas</span>
+                    </a>
+                </div>
+                <div class="icono_lado">
+                    <a class="ancla_lado" href="#">
+                        <i class="fas fa-shirt" style="color: red;" id="icono_roja"></i>
+                        <span>Camisas rojas</span>
+                    </a>
+                </div>
+                <div class="icono_lado">
+                    <a class="ancla_lado" href="#">
+                        <i class="fas fa-shirt" style="color: purple;" id="icono_morada"></i>
+                        <span>Camisas moradas</span>
+                    </a>
+                </div>
+            </article>
         </aside>
-        <section>
-            <picture>
-                <img src="./assets/camisaBla_p.png " width="300px" height="400px" 
-                alt="imagen de camisa blanca"
-                title="camisa blanca"
-                />
-            </picture>
-            <h2>Camisa blanca</h2>
-            <picture>
-                <img src="./assets/camisaNeg_p.png" width="300px" height="400px"
-                alt="imagen de camisa negra"
-                title="camisa negra"
-                />
-            </picture>
-            <h2>Camisa negra</h2>
-            <picture>
-                <img src="./assets/camisaAzu_p.png" width="300px" height="400px"
-                alt="imagen de camisa azul"
-                title="camisa azul"
-                />
-            </picture>
-            <h2>Camisa azul</h2>
-            <picture>
-                <img src="./assets/camisaAma_p.png" width="300px" height="400px"
-                alt="imagen de camisa amarilla"
-                title="camisa amarilla"
-                />
-            </picture>
-            <h2>Camisa amarilla</h2>
-            <picture>
-                <img src="./assets/camisaVer_p.jpg" width="300px" height="400px"
-                alt="imagen de camisa verde"
-                title="camisa verde"
-                />
-            </picture>
-            <h2>Camisa roja</h2>
-            <picture>
-                <img src="./assets/camisaEst_p.jpg" width="300px" height="400px"
-                alt="imagen de camisa de estampado"
-                title="camisa de estampado"
-                />
-            </picture>
-            <h2>Camisa del tachira</h2>
+        <section class="section_images">
+            <article class="articulo_c">
+                <picture>
+                    <img src="./assets/camisaBla_p.png " width="300px" height="400px" 
+                    alt="imagen de camisa blanca"
+                    title="camisa blanca"
+                    />
+                </picture>
+                <h2>Camisa blanca</h2>
+            </article>
+            <article class="articulo_c">
+                <picture>
+                    <img src="./assets/camisaNeg_p.png" width="300px" height="400px"
+                    alt="imagen de camisa negra"
+                    title="camisa negra"
+                    />
+                </picture>
+                <h2>Camisa negra</h2>
+            </article>
+            <article class="articulo_c">
+                <picture>
+                    <img src="./assets/camisaAzu_p.png" width="300px" height="400px"
+                    alt="imagen de camisa azul"
+                    title="camisa azul"
+                    />
+                    <h2>Camisa azul</h2>
+                </picture>
+            </article>
+            <article class="articulo_c">
+                <picture>
+                    <img src="./assets/camisaAma_p.png" width="300px" height="400px"
+                    alt="imagen de camisa amarilla"
+                    title="camisa amarilla"
+                    />
+                </picture>
+                <h2>Camisa amarilla</h2>
+            </article>
+            <article class="articulo_c">
+                <picture>
+                    <img src="./assets/camisaVer_p.jpg" width="300px" height="400px"
+                    alt="imagen de camisa verde"
+                    title="camisa verde"
+                    />
+                </picture>
+                <h2>Camisa verde</h2>
+            </article>
+            <article class="articulo_c">
+                <picture>
+                    <img src="./assets/camisaEst_p.jpg" width="300px" height="400px"
+                    alt="imagen de camisa de estampado"
+                    title="camisa de estampado"
+                    />
+                </picture>
+                <h2>Camisa de estampado</h2>
+            </article>
         </section>
     </main>
     <footer>
-        <p>Camisas Store C</p>  
+        <p>©Camisas Store 2023</p>  
     </footer>
 </body>
 </html>
